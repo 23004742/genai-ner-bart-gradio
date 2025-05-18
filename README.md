@@ -1,23 +1,23 @@
 ## Development of a Named Entity Recognition (NER) Prototype Using a Fine-Tuned BART Model and Gradio Framework
-
+```
+Name : L yagnesh kumar reddy
+Reg No : 212223100024
+```
 ### AIM:
 To design and develop a prototype application for Named Entity Recognition (NER) by leveraging a fine-tuned BART model and deploying the application using the Gradio framework for user interaction and evaluation.
 
 ### PROBLEM STATEMENT:
-The challenge is to build an NER system capable of identifying named entities (e.g., people, organizations, locations) in text, using a pre-trained BART model fine-tuned for this task. The system should be interactive, allowing users to input text and see the recognized entities in real-time.
+The goal is to develop an application that can accurately recognize and categorize named entities such as persons, organizations, locations, dates, etc., from input text. By fine-tuning a pre-trained BART model specifically for NER tasks, the system should be able to understand contextual relationships and identify relevant entities. The Gradio framework will be used to build a user-friendly interface for real-time interaction and evaluation.
 ### DESIGN STEPS:
 
-#### STEP 1: Fine-tune the BART model
+#### STEP 1:
 Start by fine-tuning the BART model for NER tasks. This involves training the model on a labeled NER dataset with text data that contains named entities (e.g., people, places, organizations).
-
-#### STEP 2: Create an API for NER model inference
+#### STEP 2:
 Develop an API endpoint that takes input text and returns the recognized entities using the fine-tuned BART model.
-
-#### STEP 3: Integrate the API with Gradio
+#### STEP 3:
 Build a Gradio interface that takes user input, passes it to the NER model via the API, and displays the results as highlighted text with identified entities.
-
 ### PROGRAM:
-```py
+```
 import os
 import io
 from IPython.display import Image, display, HTML
@@ -86,7 +86,7 @@ demo.launch()
 
 ```
 ### OUTPUT:
-![Screenshot 2025-05-14 203920](https://github.com/user-attachments/assets/be6a5e5b-1f50-407c-9733-3cac6ecf8d13)
+![image](https://github.com/user-attachments/assets/5fdff742-fce0-44b2-991d-746e26ee40b0)
 
 ### RESULT:
-Thus, the developed an NER prototype application with user interaction and evaluation features, using a fine-tuned BART model deployed through the Gradio framework.
+Thus, developed an NER prototype application with user interaction and evaluation features, using a fine-tuned BART model deployed through the Gradio framework.
